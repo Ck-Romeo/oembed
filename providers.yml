@@ -804,3 +804,15 @@
         - 'https://www.reverbnation.com/oembed?url=https%3A%2F%2Fwww.reverbnation.com%2Fcoralbones&format=xml'
         - 'https://www.reverbnation.com/oembed?url=https%3A%2F%2Fwww.reverbnation.com%2Fcoralbones%2Fsong%2F18668300-rising-sand&format=xml'
       discovery: true
+      
+- provider_name: Jiffye
+  provider_url: 'https://www.jiffye.com/'
+  endpoints:
+    - schemes:
+        - 'https://www.jiffye.com/*'
+        - 'https://www.jiffye.com/*/jview/*'
+      url: 'https://www.jiffye.com/oembed'
+      example_urls:
+        - 'https://www.jiffye.com/oembed?url=https%3A%2F%2Fwww.jiffye.com%2Fcoralbones&format=xml'
+        - 'https://www.jiffye.com/oembed?url=https%3A%2F%2Fwww.jiffye.com%2Fcoralbones%2Fsong%2F18668300-rising-sand&format=xml'
+      discovery: true
